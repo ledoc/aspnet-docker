@@ -16,6 +16,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'docker-hub perso'
-        repository: 'aspnet-docker'
+        repository: 'h3rv3/aspnet-docker'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
